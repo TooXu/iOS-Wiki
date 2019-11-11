@@ -1,0 +1,38 @@
+```objc
+-[ViewController initWithCoder:]
+-[ViewController viewDidLoad]
+-[ViewController viewWillAppear:]
+-[ViewController viewWillLayoutSubviews]
+-[ViewController viewDidLayoutSubviews]
+-[ViewController viewDidAppear:]
+-[SecondViewController setTestSetter:]
+-[SecondViewController viewDidLoad]
+-[ViewController viewWillDisappear:]
+-[SecondViewController viewWillAppear:]
+-[SecondViewController viewWillLayoutSubviews]
+-[SecondViewController viewDidLayoutSubviews]
+-[SecondViewController viewDidAppear:]
+-[ViewController viewDidDisappear:]
+```
+
+```objective-c
+-[SecondViewController viewWillAppear:]
+-[SecondViewController viewWillLayoutSubviews]
+-[SecondViewController viewDidLayoutSubviews]
+-[SecondViewController viewDidAppear:]
+-[ViewController viewDidDisappear:]
+-[SecondViewController touchesBegan:withEvent:]
+-[ThirdViewController viewDidLoad]
+-[SecondViewController viewWillDisappear:]
+-[ThirdViewController viewWillAppear:]
+-[ThirdViewController viewWillLayoutSubviews]
+-[ThirdViewController viewDidLayoutSubviews]
+-[SecondViewController viewDidDisappear:]
+-[ThirdViewController viewDidAppear:]
+-[ThirdViewController viewWillDisappear:]
+-[SecondViewController viewWillAppear:]
+-[ThirdViewController viewDidDisappear:]
+-[SecondViewController viewDidAppear:]
+-[ThirdViewController dealloc]
+```
+
