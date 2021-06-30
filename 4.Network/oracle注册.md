@@ -2,13 +2,16 @@
 2. 创建实例
 3. 同时生成 SSH 密钥
 4. 保存 私钥 
-5. ssh -i ssh-key.key username@ip 登录主机
-6. sudo -i 获得权限
-7. 执行脚本 安装 ssr
+5. sudo chmod 400 ssh-kye.key
+6. ssh -i ssh-key.key username@ip 登录主机
+7. sudo -i 获得权限
+8. 执行脚本 安装 ssr
 
 ```shell
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+
 chmod +x shadowsocks-all.sh
+
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ```
 
