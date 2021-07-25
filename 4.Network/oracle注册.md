@@ -41,6 +41,12 @@ reboot
 rm -rf /etc/iptables &amp;&amp; reboot
 ```
 
+开启 bbr
+
+```shell
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+```
+
 
 
 [2021年注册永久免费甲骨文云Oracle Cloud并创建免费实例最全攻略](https://xunihao.net/867.html)
