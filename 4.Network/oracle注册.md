@@ -27,6 +27,8 @@ bash <(curl -s -L https://git.io/v2ray-setup.sh)
 bash <(curl -s -L https://git.io/v2ray-setup.sh)COPY
 ```
 
+https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC
+
 显示一下信息代表安装成功（可直接用以下配置进行连接）(以下配置在链接时使用)：
 
 ```
