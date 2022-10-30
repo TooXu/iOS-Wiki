@@ -23,8 +23,10 @@ bash <(curl -s -L https://git.io/v2ray-setup.sh)
 
 输入以下命令，回车执行（`shift+insert`可粘贴）
 
+不要使用一键脚本 ，删除后手动一步一步再安装一遍
+
 ```bash
-bash <(curl -s -L https://git.io/v2ray-setup.sh)COPY
+bash <(curl -s -L https://git.io/v2ray-setup.sh)
 ```
 
 https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC
@@ -129,7 +131,8 @@ reboot
 或者强制删除
 
 ```
-rm -rf /etc/iptables &amp;&amp; reboot
+rm -rf /etc/iptables 
+reboot
 ```
 
 开启 bbr
