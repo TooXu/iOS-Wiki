@@ -1,14 +1,16 @@
 1. 注册 [oracle](https://www.oracle.com/cn/cloud/free/?source=:ow:o:p:nav:081520OCIHeroCallout_cn&intcmp=:ow:o:p:nav:081520OCIHeroCallout_cn)
 2. 创建实例
-3. 同时生成 SSH 密钥
-4. 保存 私钥 
-5. sudo chmod 400 ssh-kye.key
-6. ssh -i ssh-key.key username@ip 登录主机
-7. sudo -i 获得权限
-7. V2Ray
+3. 通过 https://tool.chinaz.com/port 测试 22 端口是否可用 不可用使用 附加 vnic 更换 ip
+4. 同时生成 SSH 密钥
+5. 保存 私钥 
+6. sudo chmod 400 ssh-kye.key
+7. ssh -i ssh-key.key username@ip 登录主机
+8. sudo -i 获得权限
+9. V2Ray
+10. 关闭 防火墙
 
 ```
-bash <(curl -s -L https://git.io/v2ray-setup.sh)
+bash <(curl -s -L https://git.io/v2ray.sh)
 ```
 
 [V2Ray 脚本](https://www.itblogcn.com/article/406.html)
@@ -17,19 +19,17 @@ bash <(curl -s -L https://git.io/v2ray-setup.sh)
 
 ## V2Ray搭建
 
-新的一键V2Ray脚本，经过笔者的测试，安装简单方便，自动关闭防火墙，自动安装BBR加速，因此推荐大家使用！
-
 **安装命令：**
 
-输入以下命令，回车执行（`shift+insert`可粘贴）
-
-不要使用一键脚本 ，删除后手动一步一步再安装一遍
+不要使用一键脚本 ，手动一步一步安装
 
 ```bash
-bash <(curl -s -L https://git.io/v2ray-setup.sh)
+bash <(curl -s -L https://git.io/v2ray.sh)
 ```
 
-https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC
+详细安装教程：
+
+https://github.com/233boy/v2ray/wiki/V2Ray%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B
 
 显示一下信息代表安装成功（可直接用以下配置进行连接）(以下配置在链接时使用)：
 
