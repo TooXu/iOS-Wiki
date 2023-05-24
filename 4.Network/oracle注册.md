@@ -21,6 +21,7 @@ bash <(curl -s -L https://git.io/v2ray.sh)
 
 **安装命令：**
 
+ip 不可用时,通过vpc更新 ip
 不要使用一键脚本 ，手动一步一步安装
 
 ```bash
