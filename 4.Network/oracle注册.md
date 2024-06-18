@@ -57,10 +57,10 @@ Ubuntu系统
 开放所有端口
 
 ```shell
-iptables -P INPUT ACCEPT \n
-iptables -P FORWARD ACCEPT \n
-iptables -P OUTPUT ACCEPT \n
-iptables -F \n
+iptables -P INPUT ACCEPT 
+iptables -P FORWARD ACCEPT 
+iptables -P OUTPUT ACCEPT 
+iptables -F 
 ```
 
 Ubuntu镜像默认设置了Iptable规则，关闭它
