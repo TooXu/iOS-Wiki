@@ -1,4 +1,4 @@
-![meta class](https://raw.githubusercontent.com/TooXu/resources/master/Images/superclass.jpeg)
+![meta class](https://raw.githubusercontent.com/TooXu/resources/refs/heads/master/Images/superclass.jpeg)
 
 
 
